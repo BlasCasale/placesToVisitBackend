@@ -26,22 +26,6 @@ const PlaceFunc = (db) => {
         theme: {
             type: DataTypes.STRING(20),
             allowNull: false
-        },
-        image: {
-            type: DataTypes.STRING,
-            allowNull: true
-        },
-        review: {
-            type: DataTypes.INTEGER,
-            allowNull: true
-        },
-        visited: {
-            type: DataTypes.BOOLEAN,
-            allowNull: true
-        },
-        socialMedia: {
-            type: DataTypes.STRING,
-            allowNull: true
         }
     },
         {
